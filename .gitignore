@@ -1,0 +1,18 @@
+# intellij
+.idea
+**/*.iml
+
+# eclipse
+.settings/
+.project
+.classpath
+
+# maven
+target/
+jacoco.exec
+logs/
+**/.flattened-pom.xml
+
+# system files
+.DS_Store
+Thumbs.db
