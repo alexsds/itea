@@ -8,16 +8,23 @@ public enum Action {
     ;
 
     public static Action fromInteger(int value) {
+        Action action = null;
+
         switch(value) {
             case 1:
-                return CREATE;
+                action = CREATE;
+                break;
             case 2:
-                return SAVE;
+                action = SAVE;
+                break;
             case 3:
-                return LOAD;
+                action = LOAD;
+                break;
             case 4:
-                return EXIT;
+                action = EXIT;
+                break;
         }
-        return null;
+
+        return action;
     }
 }
